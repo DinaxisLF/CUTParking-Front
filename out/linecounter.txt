@@ -1,0 +1,1295 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2025-03-14 13:04:13
+count workspace : d:\CUTPark\CUTPark\Frontend
+total files : 1265
+total code lines : 1800
+total comment lines : 103
+total blank lines : 178
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|            135|              0|              2|    7.5|
+   |            .md|             32|              5|             15|    1.8|
+   |            .ts|            389|              3|             38|     22|
+   |            .js|             47|              2|              2|    2.6|
+   |               |            155|             81|             24|    8.6|
+   |           .tsx|            441|              5|             56|     25|
+   |           .css|              3|              0|              0|   0.17|
+   |         .local|              2|              1|              0|   0.11|
+   |           .svg|            447|              0|              0|     25|
+   |           .bat|             47|              0|             10|    2.6|
+   |    .properties|             21|              2|              7|    1.2|
+   |        .gradle|             68|              3|             22|    3.8|
+   |         .probe|              1|              0|              0|  0.056|
+   |           .pro|             12|              1|              2|   0.67|
+   -------------------------------------------------------------------------
+.env.local, code is 2, comment is 1, blank is 0.
+.env.local, code is 2, comment is 1, blank is 0.
+.expo\devices.json, code is 3, comment is 0, blank is 0.
+.expo\devices.json, code is 3, comment is 0, blank is 0.
+.expo\README.md, code is 8, comment is 0, blank is 0.
+.expo\README.md, code is 8, comment is 0, blank is 0.
+.expo\types\router.d.ts, code is 11, comment is 1, blank is 2.
+.expo\web\cache\production\images\android-adaptive-foreground\android-adaptive-foreground-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-transparent\icon_108.png, it is a binary file.
+.expo\web\cache\production\images\android-adaptive-foreground\android-adaptive-foreground-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-transparent\icon_162.png, it is a binary file.
+.expo\web\cache\production\images\android-adaptive-foreground\android-adaptive-foreground-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-transparent\icon_216.png, it is a binary file.
+.expo\web\cache\production\images\android-adaptive-foreground\android-adaptive-foreground-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-transparent\icon_324.png, it is a binary file.
+.expo\web\cache\production\images\android-adaptive-foreground\android-adaptive-foreground-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-transparent\icon_432.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-circle\android-standard-circle-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_144.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-circle\android-standard-circle-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_192.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-circle\android-standard-circle-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_48.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-circle\android-standard-circle-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_72.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-circle\android-standard-circle-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_96.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-square\android-standard-square-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_144.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-square\android-standard-square-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_192.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-square\android-standard-square-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_48.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-square\android-standard-square-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_72.png, it is a binary file.
+.expo\web\cache\production\images\android-standard-square\android-standard-square-c4d2f985579ea88ae5ba5ddf8fc3eb5b5fd75f3ab9d765a9615646feccaac610-cover-#ffffff\icon_96.png, it is a binary file.
+.expo\web\cache\production\images\splash-android\splash-android-5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8-contain\icon_100.png, it is a binary file.
+.expo\web\cache\production\images\splash-android\splash-android-5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8-contain\icon_150.png, it is a binary file.
+.expo\web\cache\production\images\splash-android\splash-android-5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8-contain\icon_200.png, it is a binary file.
+.expo\web\cache\production\images\splash-android\splash-android-5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8-contain\icon_300.png, it is a binary file.
+.expo\web\cache\production\images\splash-android\splash-android-5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8-contain\icon_400.png, it is a binary file.
+.gitignore, code is 29, comment is 1, blank is 9.
+.gitignore, code is 29, comment is 1, blank is 9.
+android\.gitignore, code is 14, comment is 0, blank is 2.
+android\.gitignore, code is 14, comment is 0, blank is 2.
+android\.gradle\8.10.2\checksums\checksums.lock, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$AndroidGradleLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$AndroidLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$BundleAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$KotlinGradleLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$KotlinLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$KotlinPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$PluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs$VersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibs.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$AndroidGradleLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$AndroidLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$BundleAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$KotlinGradleLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$KotlinLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$KotlinPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$PluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock$VersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\classes\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\metadata.bin, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\sources\org\gradle\accessors\dm\LibrariesForLibs.java, code is 108, comment is 131, blank is 52.
+android\.gradle\8.10.2\dependencies-accessors\569c8b261a8a714d7731d5f568e0e5c05babae10\sources\org\gradle\accessors\dm\LibrariesForLibsInPluginsBlock.java, code is 137, comment is 170, blank is 52.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$AndroidPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$AndroidxAppcompatLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$AndroidxLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$AndroidxTestLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$AndroidxVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$BinaryCompatibilityPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$BinaryCompatibilityVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$BinaryPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$BinaryVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$BundleAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$FrescoImagepipelineLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$FrescoLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$FrescoUiLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$JavaxAnnotationLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$JavaxAnnotationVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$JavaxLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$JavaxVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$KotlinPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$NexusPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$NexusVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$Okhttp3LibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$PluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$VersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$YogaLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$YogaProguardLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$YogaProguardVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs$YogaVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibs.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$AndroidPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$AndroidxAppcompatLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$AndroidxLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$AndroidxTestLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$AndroidxVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$BinaryCompatibilityPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$BinaryCompatibilityVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$BinaryPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$BinaryVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$BundleAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$FrescoImagepipelineLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$FrescoLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$FrescoUiLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$InferLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$InferVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$JavaxAnnotationLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$JavaxAnnotationVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$JavaxLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$JavaxVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$KotlinPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$NexusPluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$NexusVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$Okhttp3LibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$PluginAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$VersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$YogaLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$YogaProguardLibraryAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$YogaProguardVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock$YogaVersionAccessors.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\classes\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock.class, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\metadata.bin, it is a binary file.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\sources\org\gradle\accessors\dm\LibrariesForReactAndroidLibs.java, code is 350, comment is 584, blank is 191.
+android\.gradle\8.10.2\dependencies-accessors\63bfea9ebd7ffa1cdafd0ae8ce62aa3c210042bd\sources\org\gradle\accessors\dm\LibrariesForReactAndroidLibsInPluginsBlock.java, code is 443, comment is 703, blank is 191.
+android\.gradle\8.10.2\dependencies-accessors\gc.properties, code is 0, comment is 0, blank is 0.
+android\.gradle\8.10.2\executionHistory\executionHistory.lock, it is a binary file.
+android\.gradle\8.10.2\fileChanges\last-build.bin, code is 1, comment is 0, blank is 0.
+android\.gradle\8.10.2\fileHashes\fileHashes.lock, it is a binary file.
+android\.gradle\8.10.2\fileHashes\fileHashes.lock, it is a binary file.
+android\.gradle\8.10.2\fileHashes\resourceHashesCache.bin, it is a binary file.
+android\.gradle\8.10.2\gc.properties, code is 0, comment is 0, blank is 0.
+android\.gradle\8.10.2\gc.properties, code is 0, comment is 0, blank is 0.
+android\.gradle\buildOutputCleanup\buildOutputCleanup.lock, it is a binary file.
+android\.gradle\buildOutputCleanup\buildOutputCleanup.lock, it is a binary file.
+android\.gradle\buildOutputCleanup\cache.properties, code is 2, comment is 0, blank is 0.
+android\.gradle\buildOutputCleanup\outputFiles.bin, it is a binary file.
+android\.gradle\file-system.probe, code is 1, comment is 0, blank is 0.
+android\.gradle\file-system.probe, code is 1, comment is 0, blank is 0.
+android\.gradle\noVersion\buildLogic.lock, it is a binary file.
+android\.gradle\noVersion\buildLogic.lock, it is a binary file.
+android\.gradle\vcs-1\gc.properties, code is 0, comment is 0, blank is 0.
+android\.gradle\vcs-1\gc.properties, code is 0, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\hash_key.txt, code is 6, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\fbjni\fbjniConfig.cmake, code is 8, comment is 0, blank is 1.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\fbjni\fbjniConfigVersion.cmake, code is 9, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\hermes-engine\hermes-engineConfig.cmake, code is 8, comment is 0, blank is 1.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\hermes-engine\hermes-engineConfigVersion.cmake, code is 9, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\react-native-reanimated\react-native-reanimatedConfig.cmake, code is 16, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\ReactAndroid\ReactAndroidConfig.cmake, code is 32, comment is 0, blank is 4.
+android\app\.cxx\Debug\2s291211\prefab\x86_64\prefab\lib\x86_64-linux-android\cmake\ReactAndroid\ReactAndroidConfigVersion.cmake, code is 9, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\query\client-agp\cache-v2, code is 0, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\query\client-agp\cmakeFiles-v1, code is 0, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\query\client-agp\codemodel-v2, code is 0, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\cache-v2-f14f75f9be507ad189d4.json, code is 1415, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\cmakeFiles-v1-2c35fd60abf2687915af.json, code is 847, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\codemodel-v2-69e02b5b60cd553f701b.json, code is 188, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-RNCWebViewSpec_autolinked_build-Debug-1b03fd6c868ffc535472.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-rngesturehandler_codegen_autolinked_build-Debug-60727958fb2968669e61.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-rnreanimated_autolinked_build-Debug-333e90268655bf6af312.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-rnscreens_autolinked_build-Debug-326db8a28f683b078545.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\directory-safeareacontext_autolinked_build-Debug-32f79845502ae378ad35.json, code is 14, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\index-2025-02-06T03-00-23-0807.json, code is 92, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-appmodules-Debug-3b9b9d38c052fa00108b.json, code is 521, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-react_codegen_RNCWebViewSpec-Debug-23c26944d24652821fc7.json, code is 242, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-react_codegen_rngesturehandler_codegen-Debug-9e71d723281131e0c136.json, code is 242, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-react_codegen_rnreanimated-Debug-7123ae3edf7c3a3a676f.json, code is 242, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-react_codegen_rnscreens-Debug-582ba7a601dc4c07382b.json, code is 344, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.cmake\api\v1\reply\target-react_codegen_safeareacontext-Debug-0f54382e8cdde77ce84e.json, code is 304, comment is 0, blank is 2.
+android\app\.cxx\Debug\2s291211\x86_64\.ninja_deps, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\.ninja_log, code is 51, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\additional_project_files.txt, code is 21, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\android_gradle_build.json, code is 79, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\android_gradle_build_mini.json, code is 67, comment is 0, blank is 6.
+android\app\.cxx\Debug\2s291211\x86_64\build.ninja, code is 37, comment is 0, blank is 18.
+android\app\.cxx\Debug\2s291211\x86_64\build_file_index.txt, code is 6, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\cmake_install.cmake, code is 54, comment is 0, blank is 10.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeCache.txt, code is 164, comment is 166, blank is 85.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCCompiler.cmake, code is 55, comment is 0, blank is 17.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CMakeCXXCompiler.cmake, code is 64, comment is 0, blank is 19.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CMakeDetermineCompilerABI_C.bin, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CMakeSystem.cmake, code is 11, comment is 0, blank is 4.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdC\CMakeCCompilerId.c, code is 608, comment is 62, blank is 133.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdC\CMakeCCompilerId.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdCXX\CMakeCXXCompilerId.cpp, code is 590, comment is 64, blank is 137.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\3.22.1-g37088a8-dirty\CompilerIdCXX\CMakeCXXCompilerId.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\cmake.check_cache, code is 1, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\cmake.verify_globs, code is 1, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\CMakeOutput.log, code is 230, comment is 8, blank is 26.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\rules.ninja, code is 97, comment is 0, blank is 44.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\TargetDirectories.txt, code is 18, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\CMakeFiles\VerifyGlobs.cmake, code is 132, comment is 0, blank is 62.
+android\app\.cxx\Debug\2s291211\x86_64\compile_commands.json, code is 232, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\compile_commands.json.bin, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\configure_fingerprint.bin, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\metadata_generation_command.txt, code is 23, comment is 0, blank is 0.
+android\app\.cxx\Debug\2s291211\x86_64\prefab_config.json, code is 9, comment is 0, blank is 1.
+android\app\.cxx\Debug\2s291211\x86_64\RNCWebViewSpec_autolinked_build\cmake_install.cmake, code is 37, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\RNCWebViewSpec_autolinked_build\CMakeFiles\react_codegen_RNCWebViewSpec.dir\react\renderer\components\RNCWebViewSpec\ShadowNodes.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\RNCWebViewSpec_autolinked_build\CMakeFiles\react_codegen_RNCWebViewSpec.dir\react\renderer\components\RNCWebViewSpec\States.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rngesturehandler_codegen_autolinked_build\cmake_install.cmake, code is 37, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\EventEmitters.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\ShadowNodes.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\States.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnreanimated_autolinked_build\cmake_install.cmake, code is 37, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\rnreanimated_autolinked_build\CMakeFiles\react_codegen_rnreanimated.dir\react\renderer\components\rnreanimated\EventEmitters.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnreanimated_autolinked_build\CMakeFiles\react_codegen_rnreanimated.dir\react\renderer\components\rnreanimated\Props.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnreanimated_autolinked_build\CMakeFiles\react_codegen_rnreanimated.dir\react\renderer\components\rnreanimated\ShadowNodes.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnreanimated_autolinked_build\CMakeFiles\react_codegen_rnreanimated.dir\react\renderer\components\rnreanimated\States.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\cmake_install.cmake, code is 37, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\0e2f2be390d828817eff15e9a830b9e1\codegen\jni\react\renderer\components\rnscreens\rnscreensJSI-generated.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\2944fab1fbe2072fa14bf76849f1191d\react\renderer\components\rnscreens\RNSScreenStackHeaderSubviewShadowNode.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\900a488447729d4c45f7e03432b315d8\common\cpp\react\renderer\components\rnscreens\RNSScreenState.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\931f42f201460bc0c5f68fc1bf62be42\generated\source\codegen\jni\react\renderer\components\rnscreens\ShadowNodes.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\931f42f201460bc0c5f68fc1bf62be42\generated\source\codegen\jni\react\renderer\components\rnscreens\States.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\b4d7cd5c32cad62b8bd1288881a7a071\cpp\react\renderer\components\rnscreens\RNSScreenStackHeaderConfigShadowNode.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\b4d7cd5c32cad62b8bd1288881a7a071\cpp\react\renderer\components\rnscreens\RNSScreenStackHeaderConfigState.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\b4d7cd5c32cad62b8bd1288881a7a071\cpp\react\renderer\components\rnscreens\RNSScreenStackHeaderSubviewState.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\rnscreens_autolinked_build\CMakeFiles\react_codegen_rnscreens.dir\rnscreens.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\safeareacontext_autolinked_build\cmake_install.cmake, code is 37, comment is 0, blank is 7.
+android\app\.cxx\Debug\2s291211\x86_64\safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\170ba95b98a172020e5559d5a8f9c334\react\renderer\components\safeareacontext\RNCSafeAreaViewState.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\7e242d9ed1415d2791f7f43b2d9b20d7\codegen\jni\react\renderer\components\safeareacontext\States.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\d30a847f44d2d01113f1e5eb71c2d72c\jni\react\renderer\components\safeareacontext\EventEmitters.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\safeareacontext_autolinked_build\CMakeFiles\react_codegen_safeareacontext.dir\d30a847f44d2d01113f1e5eb71c2d72c\jni\react\renderer\components\safeareacontext\ShadowNodes.cpp.o, it is a binary file.
+android\app\.cxx\Debug\2s291211\x86_64\symbol_folder_index.txt, code is 1, comment is 0, blank is 0.
+android\app\.cxx\tools\debug\x86_64\compile_commands.json, code is 232, comment is 0, blank is 0.
+android\app\build.gradle, code is 87, comment is 68, blank is 21.
+android\app\build\generated\autolinking\src\main\java\com\facebook\react\PackageList.java, code is 59, comment is 6, blank is 13.
+android\app\build\generated\autolinking\src\main\jni\Android-autolinking.cmake, code is 18, comment is 1, blank is 5.
+android\app\build\generated\autolinking\src\main\jni\autolinking.cpp, code is 59, comment is 9, blank is 7.
+android\app\build\generated\autolinking\src\main\jni\autolinking.h, code is 13, comment is 9, blank is 5.
+android\app\build\generated\res\resValues\debug\values\gradleResValues.xml, code is 4, comment is 2, blank is 3.
+android\app\build\generated\source\buildConfig\debug\com\dinaxis\cutpark\BuildConfig.java, code is 10, comment is 5, blank is 1.
+android\app\build\intermediates\annotation_processor_list\debug\javaPreCompileDebug\annotationProcessors.json, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\apk_ide_redirect_file\debug\createDebugApkListingFileRedirect\redirect.txt, code is 2, comment is 0, blank is 0.
+android\app\build\intermediates\app_metadata\debug\writeDebugAppMetadata\app-metadata.properties, code is 2, comment is 0, blank is 0.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\app.config, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-Bold.ttf, it is a binary file.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-ExtraBold.ttf, it is a binary file.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-Light.ttf, it is a binary file.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-Medium.ttf, it is a binary file.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-Regular.ttf, it is a binary file.
+android\app\build\intermediates\assets\debug\mergeDebugAssets\fonts\Rubik-SemiBold.ttf, it is a binary file.
+android\app\build\intermediates\compatible_screen_manifest\debug\createDebugCompatibleScreenManifests\output-metadata.json, code is 10, comment is 0, blank is 0.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\app.config.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-Bold.ttf.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-ExtraBold.ttf.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-Light.ttf.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-Medium.ttf.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-Regular.ttf.jar, it is a binary file.
+android\app\build\intermediates\compressed_assets\debug\compressDebugAssets\out\assets\fonts\Rubik-SemiBold.ttf.jar, it is a binary file.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\build_command_targets.bat, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\build_model.json, code is 192, comment is 0, blank is 8.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\build_stderr_targets.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\build_stdout_targets.txt, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\configure_command.bat, code is 22, comment is 0, blank is 1.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\configure_stderr.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\configure_stdout.txt, code is 15, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\generate_cxx_metadata_117_timing.txt, code is 13, comment is 0, blank is 1.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\metadata_generation_record.json, code is 184, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\prefab_command.bat, code is 22, comment is 0, blank is 1.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\prefab_stderr.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\Debug\2s291211\logs\x86_64\prefab_stdout.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\reanimated\include\placeholder.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\reanimated\libs\android.x86_64\abi.json, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\reanimated\module.json, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\worklets\include\placeholder.txt, code is 0, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\worklets\libs\android.x86_64\abi.json, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\modules\worklets\module.json, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\prefab.json, code is 5, comment is 0, blank is 0.
+android\app\build\intermediates\cxx\refs\react-native-reanimated\1h2qq13u\prefab_publication.json, code is 41, comment is 0, blank is 0.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_0\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_1\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_2\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_3\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_4\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\dirs_bucket_5\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_0\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_1\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_2\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_3\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_4\graph.bin, it is a binary file.
+android\app\build\intermediates\desugar_graph\debug\dexBuilderDebug\out\currentProject\jar_b80a02cedb76bdabca441f31fe3c9058a35418fe10119305a4de302bc108b70e_bucket_5\graph.bin, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\10\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\11\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\12\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\13\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\14\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\15\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\2\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\3\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\4\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\5\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\6\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\7\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeLibDexDebug\9\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeProjectDexDebug\0\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeProjectDexDebug\14\classes.dex, it is a binary file.
+android\app\build\intermediates\dex\debug\mergeProjectDexDebug\3\classes.dex, it is a binary file.
+android\app\build\intermediates\dex_archive_input_jar_hashes\debug\dexBuilderDebug\out, it is a binary file.
+android\app\build\intermediates\dex_number_of_buckets_file\debug\dexBuilderDebug\out, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\merge-state, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\+j_4ShzjaAzwFVQS7_wGQFPA5mY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\+Qb+D1szRJgLG9A8go6POT37IZk=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\+SHxB1GW2HQtQEfH1aeVGM2MCn8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\0RNGwx30PcygqrBCPAfdnx21Z80=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\1eTI+DEoSt9+2JJ8b0_RD8e10Nw=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\1FTvDAUz7Gz9eh+XihSzFPN78Ss=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\1lYG8tDgOHMQHHOJu9jSm06GG0E=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\1PWbQhqYH_oRNvA1cFet+jNOAhM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\2+g+_lriR50AQAJyiJuJKDVSOCE=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\36Hs_x25zYFyfjC99Nzky+iHXW8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\3hxEV39F3Ec7kL2BmovxXU+nNec=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\3UkgZehQjISsEeYnkmm5nLd5Ei4=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\4bTwq1se89JEcNOrXFWOngdC8QU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\5NoWhpb4rR++vSHoMiAZxPr3QHE=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\7CO4Yb4wQFjrqfPIHf0kzH8CFTk=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\7pbIgywivpaEaoJ52ul3A2HV3II=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\84aACAQB74790mXyI1wdgWQ20D0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\8SSi9bXEOSykAtGkHffEqETrcg4=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\_LaziLu6jP1iIP0FBhFJcDgmh0U=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\_QxVO3zNOZkbFrQyXKoOSk6xp6k=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\ABZZGAZZTk_DT8HPl7jxc3zdjrY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\Au7KF0EAY0XCNUHNNRWjO_aARVM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\b5gmLTfQh6xKmziOVhy+Z69GRjA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\Bq+T39f76MEQbqyd6qrKeDeTr7Q=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\BSvg16f6o_GlJmzxE+pE+N8kV18=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\bWU2D_ErisSbDH9BA4M2RUh3aDA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\c0LheSBzHOqlBYVnwbFI42bGTWU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\C2Nkr52PEbiwsLK3yO56cbbr2kQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\CgNw0s_6ka_hL_W+ZpAcTBFb1Ms=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\ciMDgO8nIawXgJEF+JaMigEpVLE=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\cJfbPKSkmj3TIrlajZd+bRnWi00=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\cpGlHu9Zb7r2q8JPZfp27QkeBzU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\cW7GGTU6zq+h9+1i+YmZfrbDeKg=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\d37bcpFfD8ODEpl3UMKlIiB_Nn8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\dFMHotv25oyMZXcDaUlJGsVIJzU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\DfngiB8tgjUg_jpjNj3boUiZOuM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\Di+DkD7_zj55u39S49g+JXeitdg=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\DMGDpou9pLQgNPE_zT+VRcLs4rc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\DwOQucjPa0CqduMYRrCAoHzLONM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\DXj_5NzCXuqgqy9mL48CQ5HPeac=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\E0z3xzAkkQDayMNrHTvUUVEed+A=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\e4FABwlT32KOh6oRqwFUULjS6uA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\E7nYTVmwReTuQp4ROa90iIfhFmw=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\eAsbPNZvap8Y98kDIhadyDnv3sM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\EIsNXyPsB3tUpBVR7jLX0SZv4u4=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\eqkgO1sBd_gwVbmZcBekbaGyqrc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\eRtfcX884pK6129DwerWK+fjYMI=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\FIyIBDmf7T0UVmepBRFEh4vOhAw=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\fKjDjbsRjrcePg_FNeq7NGy5SwA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\GzPLyaGGKi1WOQHl0sYupZYF_jQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\H_fcObt+W0AIBYrqRdWhgZ+sjWA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\HCyjQch7GI9FZZ9DrGsiyKyuUAs=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\hMlakx1Fhf3cUjmahzdcN8voy78=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\HnbjeZv3h7ZtaUukmoi3pzFonH8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\HtJ54t5TDlgJpE5H0t6LWvFMTs0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\ifKeqkjbAlc7AFZnRpZ0tSaU9ss=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\iHpUUxAzGXQ54gdJ9yQK5XGuuKM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\IiaHxt4xzH+UnXmA4U2Q9A+Hh+o=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\iM7pG2YUVdlYvo+7EXH0C0JPlaI=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\InYwRqEeaXVYeoPyTq7QVV9Ala0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\Iu_eWWrWvgxCN5+nbhJgqWkJFLQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\J5zTHv1puV3ArNcTC3KC0JPjG+8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\Jh8UT7_iclc11mscj_WmKoUVhhQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\JmKpETl2PYDN1edwCcMhyMfZl0c=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\JqIBIAo9KPMOQiNkDFtCVWxIrwc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\K0LAzBJF7+qFLqUR41VzslYWDSQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\k6XFR+5Bsb+FFatehUc0yHGbnWY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\ktReKdHQnpt_dzlTLFW8WssVvOk=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\LBnoTjE2RDDyFsiS1BvUniE_alU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\mAWPhNTKMhn_8SxcfQXMV38JXZU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\mi3g9SZ+msqCUmYlmGsLg06BJ5s=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\MR++bo23GRRSiKT0C0qUJWQaugc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\mXDEZnJdHWSNrfiPVy50_YAwW60=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\MxZz4BEBk9csW3NRog_9odFBYqU=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\nhpedD24cJXGBnnf+SxpJsN6vAc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\nJxSU_2McmqMwmHGLnki0Hnoje8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\nmr0m24GISTvH3ulK+H1rPwq3M8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\nP2G77iXmJgOVvj_orAdWxVtPIc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\O6cAtdd9EECJ_7gclFy6Dk7QXTY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\oMn909GIw2r1ZvGjXsDoV6GCFI4=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\on_98eaVleq7w4wiFwuNDSN35G0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\OnNJdm_1PqimDp0YIK5Cjr9fDh8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\OwPTw5d0_QPyAV+o6PAfY24hJP8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\OzXVQa_3Hqk8Bgu4MhsSeAqly_k=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\PqP22FDdX3sakLLRSBue6UjMOmE=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\q9g1zFqH3oJs1UrcuiL0P8TuWCY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\RAn2Kjkc+5RFzO0DF7zd06FvV3k=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\rlUFQvQNcADUSWx582DuFeGqF48=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\rpAfLzqpVOZaS8rzbkJ08EDk7C4=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\rszwJiIp335ZgWHspKgeVHuA3WM=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\SQSiYcZ7n++7CqIrpx+tGjizO4I=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\t48V+Wlf10PHrP__ksrPeorrijA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\tIhzs4BKr_iAB18GzuXeZYAOdS0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\tjykSpX1Pbze8imkfhMRhTtWlJY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\TwjWi25jxN+PB+C5A_02uGIz7mI=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\tXiD2pdfqiitQax0IEtkcamFHFs=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\u61KJJJ7Mjd97lQm9GwNjVdRyg0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\U76vCyMMsr3xNO0qX8HZCyNMetk=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\UHG0ww7s96jPrDS_brHzx9jWEz8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\uU+NPCjb3bl2Zcu7UJZWU9Y1nzw=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\v1gUgFgeucA4VZu15_zWxkWa43U=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\V62lYpzF7B2bTKgp7nApj1zTWRQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\VZAc9lqdPhbjbF6EIoYvmLR6Atg=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\WAWO66tqSkDRYHU78Kv0hvdD9Ok=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\wcgrb2gpMPeu8LKO5QEKcMe6ouY=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\XatQbkOHAEtRhQHicu3oOS+OqRI=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\XKYor9IvqtGgIWmYmUKdeUjJE98=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\xSgsZHsLqyhwiQFDZEnX2VtO8iA=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\xSYEN0ldZJnxrFb9CzT0oMTlSRc=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\XZnRTYVKKVqPHSmOTglGUKpl+38=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\yaFh05VrLL+bpMB3JDcWn85k4B8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\YgA1p9TDDSw+9zbwYJ2GCDY_P74=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\YZ+SnWY2nsJTQrdJ4Yo0m7fsUlQ=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\ZA1BLPlTHHzyB3Fr61wqKk4PV5g=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\zb1uOHV9XhjkXlfVnymRTU_YQq0=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\zbmvjSWaM6SrnHPTE08dAumkuA8=, it is a binary file.
+android\app\build\intermediates\incremental\debug-mergeJavaRes\zip-cache\zUaFJ15oa56iMsgKGa9PS8T5E9A=, it is a binary file.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\compile-file-map.properties, code is 25, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-af\values-af.xml, code is 111, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-am\values-am.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ar\values-ar.xml, code is 114, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-as\values-as.xml, code is 62, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-az\values-az.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-b+es+419\values-b+es+419.xml, code is 61, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-b+sr+Latn\values-b+sr+Latn.xml, code is 122, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-be\values-be.xml, code is 108, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bg\values-bg.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bn\values-bn.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-bs\values-bs.xml, code is 122, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ca\values-ca.xml, code is 43, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-cs\values-cs.xml, code is 148, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-da\values-da.xml, code is 143, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-de\values-de.xml, code is 90, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-el\values-el.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rAU\values-en-rAU.xml, code is 63, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rCA\values-en-rCA.xml, code is 63, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rGB\values-en-rGB.xml, code is 64, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rIN\values-en-rIN.xml, code is 63, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-en-rXC\values-en-rXC.xml, code is 63, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-es-rES\values-es-rES.xml, code is 28, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-es-rUS\values-es-rUS.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-es\values-es.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-et\values-et.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-eu\values-eu.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fa\values-fa.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fi\values-fi.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fr-rCA\values-fr-rCA.xml, code is 66, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-fr\values-fr.xml, code is 71, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-gl\values-gl.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-gu\values-gu.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h320dp-port-v13\values-h320dp-port-v13.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h360dp-land-v13\values-h360dp-land-v13.xml, code is 12, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h480dp-land-v13\values-h480dp-land-v13.xml, code is 12, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h550dp-port-v13\values-h550dp-port-v13.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-h720dp-v13\values-h720dp-v13.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hdpi-v4\values-hdpi-v4.xml, code is 8, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hi\values-hi.xml, code is 111, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hr\values-hr.xml, code is 147, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hu\values-hu.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-hy\values-hy.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-in\values-in.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-is\values-is.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-it\values-it.xml, code is 66, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-iw\values-iw.xml, code is 73, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ja\values-ja.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ka\values-ka.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-kk\values-kk.xml, code is 64, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-km\values-km.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-kn\values-kn.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ko\values-ko.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ky\values-ky.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-land\values-land.xml, code is 44, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-large-v4\values-large-v4.xml, code is 26, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ldltr-v21\values-ldltr-v21.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ldrtl-v17\values-ldrtl-v17.xml, code is 5, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lo\values-lo.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lt\values-lt.xml, code is 148, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-lv\values-lv.xml, code is 147, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mk\values-mk.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ml\values-ml.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mn\values-mn.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-mr\values-mr.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ms\values-ms.xml, code is 144, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-my\values-my.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-nb\values-nb.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ne\values-ne.xml, code is 128, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-night-v33\values-night-v33.xml, code is 6, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-night-v8\values-night-v8.xml, code is 46, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-nl\values-nl.xml, code is 143, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-or\values-or.xml, code is 62, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pa\values-pa.xml, code is 72, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pl\values-pl.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-port\values-port.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt-rBR\values-pt-rBR.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt-rPT\values-pt-rPT.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-pt\values-pt.xml, code is 88, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ro\values-ro.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ru\values-ru.xml, code is 84, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-si\values-si.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sk\values-sk.xml, code is 148, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sl\values-sl.xml, code is 148, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-small-v4\values-small-v4.xml, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sq\values-sq.xml, code is 110, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sr\values-sr.xml, code is 147, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sv\values-sv.xml, code is 145, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sw600dp-v13\values-sw600dp-v13.xml, code is 27, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-sw\values-sw.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ta\values-ta.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-te\values-te.xml, code is 111, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-th\values-th.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-tl\values-tl.xml, code is 62, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-tr\values-tr.xml, code is 66, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-uk\values-uk.xml, code is 82, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-ur\values-ur.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-uz\values-uz.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v16\values-v16.xml, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v17\values-v17.xml, code is 62, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v18\values-v18.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v21\values-v21.xml, code is 548, comment is 0, blank is 31.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v22\values-v22.xml, code is 13, comment is 0, blank is 2.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v23\values-v23.xml, code is 84, comment is 0, blank is 10.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v24\values-v24.xml, code is 25, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v25\values-v25.xml, code is 9, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v26\values-v26.xml, code is 16, comment is 0, blank is 2.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v27\values-v27.xml, code is 11, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v28\values-v28.xml, code is 23, comment is 0, blank is 2.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v29\values-v29.xml, code is 10, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v30\values-v30.xml, code is 9, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v31\values-v31.xml, code is 357, comment is 0, blank is 12.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-v33\values-v33.xml, code is 7, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-vi\values-vi.xml, code is 144, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w320dp-land-v13\values-w320dp-land-v13.xml, code is 5, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w360dp-port-v13\values-w360dp-port-v13.xml, code is 11, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w480dp-port-v13\values-w480dp-port-v13.xml, code is 11, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-w600dp-land-v13\values-w600dp-land-v13.xml, code is 4, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-watch-v20\values-watch-v20.xml, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-watch-v21\values-watch-v21.xml, code is 15, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-xlarge-v4\values-xlarge-v4.xml, code is 9, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rCN\values-zh-rCN.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rHK\values-zh-rHK.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zh-rTW\values-zh-rTW.xml, code is 146, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir\values-zu\values-zu.xml, code is 121, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\packageDebugResources\compile-file-map.properties, code is 25, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir\values\values.xml, code is 29, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\debug\packageDebugResources\merger.xml, code is 16, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\mergeDebugAssets\merger.xml, code is 2, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\mergeDebugJniLibFolders\merger.xml, code is 2, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\mergeDebugShaders\merger.xml, code is 2, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\packageDebug\tmp\debug\dex-renamer-state.txt, code is 64, comment is 0, blank is 0.
+android\app\build\intermediates\incremental\packageDebug\tmp\debug\zip-cache\androidResources, it is a binary file.
+android\app\build\intermediates\incremental\packageDebug\tmp\debug\zip-cache\javaResources0, it is a binary file.
+android\app\build\intermediates\java_res\debug\processDebugJavaRes\out\META-INF\app_debug.kotlin_module, it is a binary file.
+android\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes\com\dinaxis\cutpark\BuildConfig.class, it is a binary file.
+android\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes\com\facebook\react\PackageList.class, it is a binary file.
+android\app\build\intermediates\linked_resources_binary_format\debug\processDebugResources\output-metadata.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\local_only_symbol_list\debug\parseDebugLocalResources\R-def.txt, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\manifest_merge_blame_file\debug\processDebugMainManifest\manifest-merger-blame-debug-report.txt, code is 285, comment is 0, blank is 0.
+android\app\build\intermediates\merged_java_res\debug\mergeDebugJavaResource\base.jar, it is a binary file.
+android\app\build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml, code is 134, comment is 2, blank is 19.
+android\app\build\intermediates\merged_manifests\debug\processDebugManifest\AndroidManifest.xml, code is 134, comment is 2, blank is 19.
+android\app\build\intermediates\merged_manifests\debug\processDebugManifest\output-metadata.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libfbjni.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libgifimage.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libjsi.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\arm64-v8a\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libfbjni.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libgifimage.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libjsi.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\armeabi-v7a\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libfbjni.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libgifimage.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libjsi.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libgesturehandler.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libgifimage.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\merged_native_libs\debug\mergeDebugNativeLibs\out\lib\x86_64\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable-hdpi_splashscreen_logo.png.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable-mdpi_splashscreen_logo.png.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable-xhdpi_splashscreen_logo.png.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable-xxhdpi_splashscreen_logo.png.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable-xxxhdpi_splashscreen_logo.png.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_ic_launcher_background.xml.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\drawable_rn_edit_text_material.xml.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-anydpi-v26_ic_launcher.xml.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-anydpi-v26_ic_launcher_round.xml.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-hdpi_ic_launcher.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-hdpi_ic_launcher_foreground.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-hdpi_ic_launcher_round.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-mdpi_ic_launcher.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-mdpi_ic_launcher_foreground.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-mdpi_ic_launcher_round.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xhdpi_ic_launcher.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xhdpi_ic_launcher_foreground.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xhdpi_ic_launcher_round.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxhdpi_ic_launcher.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxhdpi_ic_launcher_foreground.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxhdpi_ic_launcher_round.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxxhdpi_ic_launcher.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\mipmap-xxxhdpi_ic_launcher_round.webp.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-af_values-af.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-am_values-am.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ar_values-ar.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-as_values-as.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-az_values-az.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-b+es+419_values-b+es+419.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-b+sr+Latn_values-b+sr+Latn.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-be_values-be.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bg_values-bg.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bn_values-bn.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-bs_values-bs.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ca_values-ca.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-cs_values-cs.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-da_values-da.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-de_values-de.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-el_values-el.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rAU_values-en-rAU.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rCA_values-en-rCA.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rGB_values-en-rGB.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rIN_values-en-rIN.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-en-rXC_values-en-rXC.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-es-rES_values-es-rES.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-es-rUS_values-es-rUS.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-es_values-es.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-et_values-et.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-eu_values-eu.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fa_values-fa.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fi_values-fi.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fr-rCA_values-fr-rCA.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-fr_values-fr.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-gl_values-gl.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-gu_values-gu.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-h720dp-v13_values-h720dp-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hdpi-v4_values-hdpi-v4.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hi_values-hi.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hr_values-hr.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hu_values-hu.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-hy_values-hy.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-in_values-in.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-is_values-is.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-it_values-it.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-iw_values-iw.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ja_values-ja.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ka_values-ka.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-kk_values-kk.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-km_values-km.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-kn_values-kn.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ko_values-ko.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ky_values-ky.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-land_values-land.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-large-v4_values-large-v4.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ldltr-v21_values-ldltr-v21.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ldrtl-v17_values-ldrtl-v17.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lo_values-lo.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lt_values-lt.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-lv_values-lv.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mk_values-mk.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ml_values-ml.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mn_values-mn.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-mr_values-mr.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ms_values-ms.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-my_values-my.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-nb_values-nb.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ne_values-ne.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-night-v33_values-night-v33.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-night-v8_values-night-v8.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-nl_values-nl.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-or_values-or.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pa_values-pa.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pl_values-pl.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-port_values-port.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt-rBR_values-pt-rBR.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt-rPT_values-pt-rPT.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-pt_values-pt.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ro_values-ro.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ru_values-ru.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-si_values-si.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sk_values-sk.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sl_values-sl.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-small-v4_values-small-v4.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sq_values-sq.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sr_values-sr.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sv_values-sv.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sw600dp-v13_values-sw600dp-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-sw_values-sw.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ta_values-ta.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-te_values-te.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-th_values-th.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-tl_values-tl.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-tr_values-tr.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-uk_values-uk.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-ur_values-ur.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-uz_values-uz.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v16_values-v16.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v17_values-v17.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v18_values-v18.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v21_values-v21.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v22_values-v22.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v23_values-v23.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v24_values-v24.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v25_values-v25.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v26_values-v26.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v27_values-v27.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v28_values-v28.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v29_values-v29.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v30_values-v30.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v31_values-v31.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-v33_values-v33.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-vi_values-vi.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-watch-v20_values-watch-v20.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-watch-v21_values-watch-v21.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-xlarge-v4_values-xlarge-v4.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rCN_values-zh-rCN.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rHK_values-zh-rHK.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zh-rTW_values-zh-rTW.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values-zu_values-zu.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res\debug\mergeDebugResources\values_values.arsc.flat, it is a binary file.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-af.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-am.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ar.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-as.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-az.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-b+es+419.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-b+sr+Latn.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-be.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-bg.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-bn.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-bs.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ca.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-cs.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-da.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-de.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-el.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-en-rAU.json, code is 94, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-en-rCA.json, code is 94, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-en-rGB.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-en-rIN.json, code is 94, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-en-rXC.json, code is 94, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-es-rES.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-es-rUS.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-es.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-et.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-eu.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-fa.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-fi.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-fr-rCA.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-fr.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-gl.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-gu.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-h320dp-port-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-h360dp-land-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-h480dp-land-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-h550dp-port-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-h720dp-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-hdpi-v4.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-hi.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-hr.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-hu.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-hy.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-in.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-is.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-it.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-iw.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ja.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ka.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-kk.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-km.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-kn.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ko.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ky.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-land.json, code is 38, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-large-v4.json, code is 38, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ldltr-v21.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ldrtl-v17.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-lo.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-lt.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-lv.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-mk.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ml.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-mn.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-mr.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ms.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-my.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-nb.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ne.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-night-v33.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-night-v8.json, code is 54, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-nl.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-or.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-pa.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-pl.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-port.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-pt-rBR.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-pt-rPT.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-pt.json, code is 111, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ro.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ru.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-si.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sk.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sl.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-small-v4.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sq.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sr.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sv.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sw.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-sw600dp-v13.json, code is 38, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ta.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-te.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-th.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-tl.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-tr.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-uk.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-ur.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-uz.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v16.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v17.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v18.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v21.json, code is 85, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v22.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v23.json, code is 58, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v24.json, code is 55, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v25.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v26.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v27.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v28.json, code is 38, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v29.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v30.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v31.json, code is 47, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-v33.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-vi.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-w320dp-land-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-w360dp-port-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-w480dp-port-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-w600dp-land-v13.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-watch-v20.json, code is 38, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-watch-v21.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-xlarge-v4.json, code is 19, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-zh-rCN.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-zh-rHK.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-zh-rTW.json, code is 130, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values-zu.json, code is 113, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\multi-v2\values.json, code is 608, comment is 0, blank is 0.
+android\app\build\intermediates\merged_res_blame_folder\debug\mergeDebugResources\out\single\mergeDebugResources.json, code is 98, comment is 0, blank is 0.
+android\app\build\intermediates\navigation_json\debug\extractDeepLinksDebug\navigation.json, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\nested_resources_validation_report\debug\generateDebugResources\nestedResourcesValidationReport.txt, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\packaged_manifests\debug\processDebugManifestForPackage\AndroidManifest.xml, code is 134, comment is 2, blank is 19.
+android\app\build\intermediates\packaged_manifests\debug\processDebugManifestForPackage\output-metadata.json, code is 20, comment is 0, blank is 0.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable-hdpi-v4\splashscreen_logo.png, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable-mdpi-v4\splashscreen_logo.png, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable-xhdpi-v4\splashscreen_logo.png, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable-xxhdpi-v4\splashscreen_logo.png, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable-xxxhdpi-v4\splashscreen_logo.png, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable\ic_launcher_background.xml, code is 6, comment is 0, blank is 0.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\drawable\rn_edit_text_material.xml, code is 12, comment is 23, blank is 2.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-anydpi-v26\ic_launcher.xml, code is 5, comment is 0, blank is 0.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-anydpi-v26\ic_launcher_round.xml, code is 5, comment is 0, blank is 0.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-hdpi-v4\ic_launcher.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-hdpi-v4\ic_launcher_foreground.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-hdpi-v4\ic_launcher_round.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-mdpi-v4\ic_launcher.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-mdpi-v4\ic_launcher_foreground.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-mdpi-v4\ic_launcher_round.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xhdpi-v4\ic_launcher.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xhdpi-v4\ic_launcher_foreground.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xhdpi-v4\ic_launcher_round.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxhdpi-v4\ic_launcher.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxhdpi-v4\ic_launcher_foreground.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxhdpi-v4\ic_launcher_round.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxxhdpi-v4\ic_launcher.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxxhdpi-v4\ic_launcher_foreground.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\mipmap-xxxhdpi-v4\ic_launcher_round.webp, it is a binary file.
+android\app\build\intermediates\packaged_res\debug\packageDebugResources\values\values.xml, code is 29, comment is 0, blank is 0.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_0.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_1.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_2.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_3.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_4.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\066f20f170b9ef3fe37cf2941e7200e2ca34114aef7b45529b0e9b953f5cb8db_5.jar, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\dinaxis\cutpark\BuildConfig.dex, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\dinaxis\cutpark\MainActivity$createReactActivityDelegate$1.dex, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\dinaxis\cutpark\MainActivity.dex, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\dinaxis\cutpark\MainApplication$reactNativeHost$1.dex, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\dinaxis\cutpark\MainApplication.dex, it is a binary file.
+android\app\build\intermediates\project_dex_archive\debug\dexBuilderDebug\out\com\facebook\react\PackageList.dex, it is a binary file.
+android\app\build\intermediates\runtime_symbol_list\debug\processDebugResources\R.txt, code is 6330, comment is 0, blank is 0.
+android\app\build\intermediates\signing_config_versions\debug\writeDebugSigningConfigVersions\signing-config-versions.json, code is 1, comment is 0, blank is 0.
+android\app\build\intermediates\source_set_path_map\debug\mapDebugSourceSetPaths\file-map.txt, code is 85, comment is 0, blank is 0.
+android\app\build\intermediates\stable_resource_ids_file\debug\processDebugResources\stableIds.txt, code is 4724, comment is 0, blank is 0.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libfbjni.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libgifimage.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libjsi.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\arm64-v8a\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libfbjni.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libgifimage.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libjsi.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\armeabi-v7a\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libfbjni.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libgifimage.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libjsi.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libandroidx.graphics.path.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libfbjni.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libgesturehandler.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libgifimage.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libhermestooling.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libimagepipeline.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libjsi.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libnative-filters.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libnative-imagetranscoder.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libreact_codegen_safeareacontext.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\librnscreens.so, it is a binary file.
+android\app\build\intermediates\stripped_native_libs\debug\stripDebugDebugSymbols\out\lib\x86_64\libstatic-webp.so, it is a binary file.
+android\app\build\intermediates\symbol_list_with_package_name\debug\processDebugResources\package-aware-r.txt, code is 4719, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab.values.at, code is 1, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\inputs\source-to-output.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-attributes.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\class-fq-name-to-source.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\internal-name-to-source.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\java-sources-proto-map.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\proto.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab.keystream, code is 1, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\source-to-classes.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\subtypes.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\jvm\kotlin\supertypes.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\counters.tab, code is 2, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\file-to-id.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab.keystream.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab.values.at, code is 1, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\id-to-file.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab.keystream, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab.keystream.len, code is 1, comment is 0, blank is 0.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab.values.at, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab_i, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\caches-jvm\lookups\lookups.tab_i.len, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\cacheable\last-build.bin, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\classpath-snapshot\shrunk-classpath-snapshot.bin, it is a binary file.
+android\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, it is a binary file.
+android\app\build\outputs\apk\debug\output-metadata.json, code is 21, comment is 0, blank is 0.
+android\app\build\outputs\logs\manifest-merger-debug-report.txt, code is 715, comment is 0, blank is 0.
+android\app\build\tmp\compileDebugJavaWithJavac\previous-compilation-data.bin, it is a binary file.
+android\app\build\tmp\kotlin-classes\debug\com\dinaxis\cutpark\MainActivity$createReactActivityDelegate$1.class, it is a binary file.
+android\app\build\tmp\kotlin-classes\debug\com\dinaxis\cutpark\MainActivity.class, it is a binary file.
+android\app\build\tmp\kotlin-classes\debug\com\dinaxis\cutpark\MainApplication$reactNativeHost$1.class, it is a binary file.
+android\app\build\tmp\kotlin-classes\debug\com\dinaxis\cutpark\MainApplication.class, it is a binary file.
+android\app\build\tmp\kotlin-classes\debug\META-INF\app_debug.kotlin_module, it is a binary file.
+android\app\debug.keystore, it is a binary file.
+android\app\debug.keystore, it is a binary file.
+android\app\proguard-rules.pro, code is 12, comment is 1, blank is 2.
+android\app\proguard-rules.pro, code is 12, comment is 1, blank is 2.
+android\app\src\debug\AndroidManifest.xml, code is 5, comment is 0, blank is 2.
+android\app\src\main\AndroidManifest.xml, code is 32, comment is 0, blank is 2.
+android\app\src\main\assets\fonts\Rubik-Bold.ttf, it is a binary file.
+android\app\src\main\assets\fonts\Rubik-ExtraBold.ttf, it is a binary file.
+android\app\src\main\assets\fonts\Rubik-Light.ttf, it is a binary file.
+android\app\src\main\assets\fonts\Rubik-Medium.ttf, it is a binary file.
+android\app\src\main\assets\fonts\Rubik-Regular.ttf, it is a binary file.
+android\app\src\main\assets\fonts\Rubik-SemiBold.ttf, it is a binary file.
+android\app\src\main\java\com\dinaxis\cutpark\MainActivity.kt, code is 35, comment is 22, blank is 8.
+android\app\src\main\java\com\dinaxis\cutpark\MainApplication.kt, code is 45, comment is 4, blank is 11.
+android\app\src\main\res\drawable-hdpi\splashscreen_logo.png, it is a binary file.
+android\app\src\main\res\drawable-mdpi\splashscreen_logo.png, it is a binary file.
+android\app\src\main\res\drawable-xhdpi\splashscreen_logo.png, it is a binary file.
+android\app\src\main\res\drawable-xxhdpi\splashscreen_logo.png, it is a binary file.
+android\app\src\main\res\drawable-xxxhdpi\splashscreen_logo.png, it is a binary file.
+android\app\src\main\res\drawable\CUTParkinSplash.xml, code is 640, comment is 0, blank is 0.
+android\app\src\main\res\drawable\ic_launcher_background.xml, code is 6, comment is 0, blank is 0.
+android\app\src\main\res\drawable\rn_edit_text_material.xml, code is 12, comment is 23, blank is 2.
+android\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml, code is 5, comment is 0, blank is 0.
+android\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml, code is 5, comment is 0, blank is 0.
+android\app\src\main\res\mipmap-hdpi\ic_launcher.webp, it is a binary file.
+android\app\src\main\res\mipmap-hdpi\ic_launcher_foreground.webp, it is a binary file.
+android\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp, it is a binary file.
+android\app\src\main\res\mipmap-mdpi\ic_launcher.webp, it is a binary file.
+android\app\src\main\res\mipmap-mdpi\ic_launcher_foreground.webp, it is a binary file.
+android\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp, it is a binary file.
+android\app\src\main\res\mipmap-xhdpi\ic_launcher.webp, it is a binary file.
+android\app\src\main\res\mipmap-xhdpi\ic_launcher_foreground.webp, it is a binary file.
+android\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxhdpi\ic_launcher_foreground.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_foreground.webp, it is a binary file.
+android\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp, it is a binary file.
+android\app\src\main\res\values-night\colors.xml, code is 1, comment is 0, blank is 0.
+android\app\src\main\res\values\colors.xml, code is 6, comment is 0, blank is 0.
+android\app\src\main\res\values\strings.xml, code is 6, comment is 0, blank is 0.
+android\app\src\main\res\values\styles.xml, code is 25, comment is 0, blank is 1.
+android\build.gradle, code is 34, comment is 3, blank is 14.
+android\build.gradle, code is 34, comment is 3, blank is 14.
+android\build\generated\autolinking\autolinking.json, code is 1, comment is 0, blank is 0.
+android\build\generated\autolinking\autolinking.json, code is 1, comment is 0, blank is 0.
+android\gradle.properties, code is 21, comment is 2, blank is 7.
+android\gradle.properties, code is 21, comment is 2, blank is 7.
+android\gradle\wrapper\gradle-wrapper.jar, it is a binary file.
+android\gradle\wrapper\gradle-wrapper.properties, code is 7, comment is 1, blank is 0.
+android\gradlew, code is 112, comment is 80, blank is 13.
+android\gradlew, code is 112, comment is 80, blank is 13.
+android\gradlew.bat, code is 47, comment is 0, blank is 10.
+android\gradlew.bat, code is 47, comment is 0, blank is 10.
+android\settings.gradle, code is 34, comment is 0, blank is 8.
+android\settings.gradle, code is 34, comment is 0, blank is 8.
+app.json, code is 54, comment is 0, blank is 1.
+app.json, code is 54, comment is 0, blank is 1.
+app\(root)\(tabs)\_layout.tsx, code is 91, comment is 0, blank is 4.
+app\(root)\(tabs)\_layout.tsx, code is 91, comment is 0, blank is 4.
+app\(root)\(tabs)\car.tsx, code is 10, comment is 0, blank is 2.
+app\(root)\(tabs)\car.tsx, code is 10, comment is 0, blank is 2.
+app\(root)\(tabs)\index.tsx, code is 29, comment is 0, blank is 1.
+app\(root)\(tabs)\index.tsx, code is 29, comment is 0, blank is 1.
+app\(root)\(tabs)\parking.tsx, code is 10, comment is 0, blank is 2.
+app\(root)\(tabs)\parking.tsx, code is 10, comment is 0, blank is 2.
+app\(root)\(tabs)\profile.tsx, code is 102, comment is 0, blank is 13.
+app\(root)\(tabs)\profile.tsx, code is 102, comment is 0, blank is 13.
+app\(root)\properties\[id].tsx, code is 12, comment is 0, blank is 2.
+app\(root)\properties\[id].tsx, code is 12, comment is 0, blank is 2.
+app\_layout.tsx, code is 26, comment is 0, blank is 4.
+app\_layout.tsx, code is 26, comment is 0, blank is 4.
+app\globals.css, code is 3, comment is 0, blank is 0.
+app\globals.css, code is 3, comment is 0, blank is 0.
+app\sign-in.tsx, code is 65, comment is 2, blank is 7.
+app\sign-in.tsx, code is 65, comment is 2, blank is 7.
+assets\fonts\Rubik-Bold.ttf, it is a binary file.
+assets\fonts\Rubik-Bold.ttf, it is a binary file.
+assets\fonts\Rubik-ExtraBold.ttf, it is a binary file.
+assets\fonts\Rubik-ExtraBold.ttf, it is a binary file.
+assets\fonts\Rubik-Light.ttf, it is a binary file.
+assets\fonts\Rubik-Light.ttf, it is a binary file.
+assets\fonts\Rubik-Medium.ttf, it is a binary file.
+assets\fonts\Rubik-Medium.ttf, it is a binary file.
+assets\fonts\Rubik-Regular.ttf, it is a binary file.
+assets\fonts\Rubik-Regular.ttf, it is a binary file.
+assets\fonts\Rubik-SemiBold.ttf, it is a binary file.
+assets\fonts\Rubik-SemiBold.ttf, it is a binary file.
+assets\hooks\userLocation.tsx, code is 27, comment is 0, blank is 6.
+assets\hooks\userLocation.tsx, code is 27, comment is 0, blank is 6.
+assets\icons\area.png, it is a binary file.
+assets\icons\area.png, it is a binary file.
+assets\icons\back-arrow.png, it is a binary file.
+assets\icons\back-arrow.png, it is a binary file.
+assets\icons\bath.png, it is a binary file.
+assets\icons\bath.png, it is a binary file.
+assets\icons\bed.png, it is a binary file.
+assets\icons\bed.png, it is a binary file.
+assets\icons\bell.png, it is a binary file.
+assets\icons\bell.png, it is a binary file.
+assets\icons\calendar.png, it is a binary file.
+assets\icons\calendar.png, it is a binary file.
+assets\icons\car-park.png, it is a binary file.
+assets\icons\car-park.png, it is a binary file.
+assets\icons\chat.png, it is a binary file.
+assets\icons\chat.png, it is a binary file.
+assets\icons\cutlery.png, it is a binary file.
+assets\icons\cutlery.png, it is a binary file.
+assets\icons\dog.png, it is a binary file.
+assets\icons\dog.png, it is a binary file.
+assets\icons\dumbell.png, it is a binary file.
+assets\icons\dumbell.png, it is a binary file.
+assets\icons\edit.png, it is a binary file.
+assets\icons\edit.png, it is a binary file.
+assets\icons\filter.png, it is a binary file.
+assets\icons\filter.png, it is a binary file.
+assets\icons\google.png, it is a binary file.
+assets\icons\google.png, it is a binary file.
+assets\icons\heart.png, it is a binary file.
+assets\icons\heart.png, it is a binary file.
+assets\icons\home.png, it is a binary file.
+assets\icons\home.png, it is a binary file.
+assets\icons\info.png, it is a binary file.
+assets\icons\info.png, it is a binary file.
+assets\icons\language.png, it is a binary file.
+assets\icons\language.png, it is a binary file.
+assets\icons\laundry.png, it is a binary file.
+assets\icons\laundry.png, it is a binary file.
+assets\icons\location.png, it is a binary file.
+assets\icons\location.png, it is a binary file.
+assets\icons\logout.png, it is a binary file.
+assets\icons\logout.png, it is a binary file.
+assets\icons\people.png, it is a binary file.
+assets\icons\people.png, it is a binary file.
+assets\icons\person.png, it is a binary file.
+assets\icons\person.png, it is a binary file.
+assets\icons\phone.png, it is a binary file.
+assets\icons\phone.png, it is a binary file.
+assets\icons\right-arrow.png, it is a binary file.
+assets\icons\right-arrow.png, it is a binary file.
+assets\icons\run.png, it is a binary file.
+assets\icons\run.png, it is a binary file.
+assets\icons\search.png, it is a binary file.
+assets\icons\search.png, it is a binary file.
+assets\icons\send.png, it is a binary file.
+assets\icons\send.png, it is a binary file.
+assets\icons\shield.png, it is a binary file.
+assets\icons\shield.png, it is a binary file.
+assets\icons\star.png, it is a binary file.
+assets\icons\star.png, it is a binary file.
+assets\icons\swim.png, it is a binary file.
+assets\icons\swim.png, it is a binary file.
+assets\icons\wallet.png, it is a binary file.
+assets\icons\wallet.png, it is a binary file.
+assets\icons\wifi.png, it is a binary file.
+assets\icons\wifi.png, it is a binary file.
+assets\images\avatar.png, it is a binary file.
+assets\images\avatar.png, it is a binary file.
+assets\images\bar-chart.png, it is a binary file.
+assets\images\bar-chart.png, it is a binary file.
+assets\images\card-gradient.png, it is a binary file.
+assets\images\card-gradient.png, it is a binary file.
+assets\images\CUT_Logo.png, it is a binary file.
+assets\images\CUT_Logo.png, it is a binary file.
+assets\images\CUTPark_icon.png, it is a binary file.
+assets\images\CUTPark_icon.png, it is a binary file.
+assets\images\CutParking.svg, code is 154, comment is 0, blank is 0.
+assets\images\CutParking.svg, code is 154, comment is 0, blank is 0.
+assets\images\favicon.png, it is a binary file.
+assets\images\favicon.png, it is a binary file.
+assets\images\icon.png, it is a binary file.
+assets\images\icon.png, it is a binary file.
+assets\images\logo.svg, code is 293, comment is 0, blank is 0.
+assets\images\logo.svg, code is 293, comment is 0, blank is 0.
+assets\images\map.png, it is a binary file.
+assets\images\map.png, it is a binary file.
+assets\images\new-york.png, it is a binary file.
+assets\images\new-york.png, it is a binary file.
+assets\images\no-result.png, it is a binary file.
+assets\images\no-result.png, it is a binary file.
+assets\images\splash-icon.png, it is a binary file.
+assets\images\splash-icon.png, it is a binary file.
+assets\images\splash.png, it is a binary file.
+assets\images\splash.png, it is a binary file.
+assets\images\white-gradient.png, it is a binary file.
+assets\images\white-gradient.png, it is a binary file.
+babel.config.js, code is 9, comment is 0, blank is 0.
+babel.config.js, code is 9, comment is 0, blank is 0.
+constants\data.ts, code is 159, comment is 0, blank is 6.
+constants\data.ts, code is 159, comment is 0, blank is 6.
+constants\icons.ts, code is 68, comment is 0, blank is 1.
+constants\icons.ts, code is 68, comment is 0, blank is 1.
+constants\images.ts, code is 20, comment is 0, blank is 1.
+constants\images.ts, code is 20, comment is 0, blank is 1.
+expo-env.d.ts, code is 0, comment is 2, blank is 1.
+expo-env.d.ts, code is 0, comment is 2, blank is 1.
+image.d.ts, code is 20, comment is 0, blank is 4.
+image.d.ts, code is 20, comment is 0, blank is 4.
+lib\appwrite.ts, code is 75, comment is 0, blank is 17.
+lib\appwrite.ts, code is 75, comment is 0, blank is 17.
+lib\global-provider.tsx, code is 48, comment is 0, blank is 11.
+lib\global-provider.tsx, code is 48, comment is 0, blank is 11.
+lib\useAppwrite.ts, code is 47, comment is 0, blank is 8.
+lib\useAppwrite.ts, code is 47, comment is 0, blank is 8.
+metro.config.js, code is 4, comment is 0, blank is 2.
+metro.config.js, code is 4, comment is 0, blank is 2.
+nativewind-env.d.ts, code is 0, comment is 1, blank is 0.
+nativewind-env.d.ts, code is 0, comment is 1, blank is 0.
+navigation\navigation.tsx, code is 21, comment is 3, blank is 4.
+navigation\navigation.tsx, code is 21, comment is 3, blank is 4.
+package-lock.json, code is 16776, comment is 0, blank is 21.
+package.json, code is 62, comment is 0, blank is 0.
+package.json, code is 62, comment is 0, blank is 0.
+README.md, code is 24, comment is 5, blank is 15.
+README.md, code is 24, comment is 5, blank is 15.
+tailwind.config.js, code is 34, comment is 2, blank is 0.
+tailwind.config.js, code is 34, comment is 2, blank is 0.
+tsconfig.json, code is 15, comment is 0, blank is 1.
+tsconfig.json, code is 15, comment is 0, blank is 1.
+===============================================================================
