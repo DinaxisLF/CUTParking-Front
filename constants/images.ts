@@ -10,7 +10,8 @@ import noResult from "@/assets/images/no-result.png";
 import parkingIcon from "@/assets/images/ParkingFlat.jpg";
 import parkingFromTop from "@/assets/images/Estacionamiento.jpg";
 import carExample from "@/assets/images/Car.png";
-import reservation from "@/assets/images/Reservation.jpg";
+import reservation from "@/assets/images/ReservationCard.png";
+import parkingSpotImage from "@/assets/images/ParkingSpot.png";
 
 export default {
   onboarding,
@@ -26,4 +27,5 @@ export default {
   parkingFromTop,
   carExample,
   reservation,
+  parkingSpotImage,
 };

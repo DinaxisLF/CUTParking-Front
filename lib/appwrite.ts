@@ -1,6 +1,7 @@
 import { Account, Avatars, Client, OAuthProvider } from "react-native-appwrite";
 import { openAuthSessionAsync } from "expo-web-browser";
 import * as Linking from "expo-linking";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export const config = {
   platform: "com.dinaxis.cutpark",
@@ -48,31 +49,53 @@ export async function login() {
     const session = await account.createSession(userId, secret);
     const token = session.$id; // Session token (JWT) used to authenticate requests
     console.log("Session Token:", token);
-    if (!session) throw new Error("Failed to create session");
 
-    // Step 1: Fetch user info from Appwrite
+    const { jwt } = await account.createJWT();
+    console.log("JWT Appwrite", jwt);
+
     const user = await account.get();
+    console.log("User from Appwrite:", user);
     const { name, email } = user;
 
     console.log("User info:", name, email);
 
-    // Step 2: Send user data to API
-    const apiUrl = "http://192.168.0.177:8080/user/info"; // Replace with your API URL
+    if (!session) throw new Error("Failed to create session");
 
-    const responseApi = await fetch(apiUrl, {
-      method: "POST",
+    // Paso nuevo: Obtener JWT del backend
+    const jwtResponse = await fetch(
+      "http://192.168.0.177:8080/api/auth/appwrite",
+      {
+        method: "POST",
+        headers: {
+          "X-Appwrite-Session": jwt,
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    if (!jwtResponse.ok) throw new Error("Failed to get JWT token");
+
+    const { token: jwtToken } = await jwtResponse.json();
+    await AsyncStorage.setItem("jwtToken", jwtToken);
+    console.log("jwtToken", jwtToken);
+
+    const userID = await fetch("http://192.168.0.177:8080/user/info", {
+      method: "GET",
       headers: {
-        Cookie: `JSESSIONID=${token}`, // Pass the OAuth2 session token
+        Authorization: `Bearer ${jwtToken}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, email }),
     });
 
-    if (!responseApi.ok) throw new Error("Failed to save user data");
+    if (!userID.ok) {
+      throw new Error(`HTTP error! status: ${userID.status}`);
+    }
 
-    if (responseApi.ok) console.log("User saved in database");
+    const userData = await userID.json();
+    console.log("Datos del usuario:", userData);
 
-    console.log("User data saved successfully");
+    await AsyncStorage.setItem("userId", userData.id.toString());
+    console.log("ID guardado correctamente");
 
     return true;
   } catch (error) {

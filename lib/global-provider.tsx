@@ -1,8 +1,8 @@
 import React, { createContext, useContext, ReactNode } from "react";
-
-import { getCurrentUser } from "./appwrite";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { getCurrentUser, logout } from "./appwrite";
 import { useAppwrite } from "./useAppwrite";
-import { Redirect } from "expo-router";
+import { useEffect, useState } from "react";
 
 interface GlobalContextType {
   isLogged: boolean;
@@ -25,6 +25,8 @@ interface GlobalProviderProps {
 }
 
 export const GlobalProvider = ({ children }: GlobalProviderProps) => {
+  const [jwtToken, setJwtToken] = useState<string | null>(null);
+
   const {
     data: user,
     loading,
@@ -33,7 +35,21 @@ export const GlobalProvider = ({ children }: GlobalProviderProps) => {
     fn: getCurrentUser,
   });
 
-  const isLogged = !!user;
+  useEffect(() => {
+    const loadToken = async () => {
+      const token = await AsyncStorage.getItem("jwtToken");
+      setJwtToken(token);
+    };
+    loadToken();
+  }, []);
+
+  const handleLogout = async () => {
+    await AsyncStorage.removeItem("jwtToken");
+    setJwtToken(null);
+    await logout();
+  };
+
+  const isLogged = !!user && !!jwtToken;
 
   return (
     <GlobalContext.Provider

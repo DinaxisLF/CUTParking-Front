@@ -1,7 +1,6 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
 import { Tabs } from "expo-router";
-
 import icons from "@/constants/icons";
 
 const TabIcon = ({
@@ -9,7 +8,7 @@ const TabIcon = ({
   icon,
   title,
 }: {
-  focused: Boolean;
+  focused: boolean;
   icon: any;
   title: string;
 }) => (
@@ -26,7 +25,9 @@ const TabIcon = ({
           ? "text-primary-300 font-rubik-medium"
           : "text-black-200 font-rubik"
       } text-xs w-full text-center mt-1`}
-    ></Text>
+    >
+      {title}
+    </Text>
   </View>
 );
 
@@ -67,13 +68,13 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="parking"
         options={{
-          title: "Estacionamiento",
+          title: "Reservaciones",
           headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabIcon
               focused={focused}
               icon={icons.carPark}
-              title="Estacionamiento"
+              title="Reservaciones"
             />
           ),
         }}
