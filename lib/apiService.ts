@@ -4,9 +4,10 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Alert } from "react-native";
 import { ParkingSpot } from "@/types/parkingSpot";
 import { Reservation } from "@/types/reservation";
+import { Penalty } from "@/types/penaltie";
 
 const api = axios.create({
-  baseURL: "http://192.168.1.190:8080/api",
+  baseURL: "http://192.168.50.53:8080/api",
 });
 
 export const CarService = {
@@ -165,7 +166,6 @@ export const ParkingSpotService = {
 };
 
 export const ReservationsService = {
-  // Add this to your apiService.ts
   CreateReservation: async (reservationData: {
     userId: number;
     spotId: number;
@@ -191,6 +191,33 @@ export const ReservationsService = {
       return response.data;
     } catch (error) {
       console.error("Error creating reservation:", error);
+      throw error;
+    }
+  },
+
+  cancelReservation: async (reservationId: number, userId: number) => {
+    try {
+      const jwtToken = await AsyncStorage.getItem("jwtToken");
+
+      if (!jwtToken) {
+        throw new Error("Authentication required");
+      }
+
+      const response = await api.put(
+        `/reservations/cancel?reservationId=${reservationId}&userId=${userId}`,
+        null, // No request body
+        {
+          headers: {
+            Authorization: `Bearer ${jwtToken}`,
+          },
+        }
+      );
+
+      console.log(response.data);
+
+      return response.data;
+    } catch (error) {
+      console.error("Error cancelling reservation:", error);
       throw error;
     }
   },
@@ -236,6 +263,36 @@ export const ReservationsService = {
       }
 
       return response.data as Reservation[];
+    } catch (error) {
+      console.error("Error fetching user reservations:", error);
+      throw error;
+    }
+  },
+};
+
+export const PenaltiesService = {
+  getUserPenalties: async (): Promise<Penalty[]> => {
+    try {
+      const [token, userId] = await Promise.all([
+        AsyncStorage.getItem("jwtToken"),
+        AsyncStorage.getItem("userId"),
+      ]);
+
+      if (!token) throw new Error("No authentication token found");
+      if (!userId) throw new Error("No user ID found");
+
+      const response = await api.get(`/penalties/user/${userId}`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!response.data) {
+        throw new Error("No data received from server");
+      }
+
+      return response.data as Penalty[];
     } catch (error) {
       console.error("Error fetching user reservations:", error);
       throw error;

@@ -3,7 +3,7 @@ import React from "react";
 import images from "@/constants/images";
 import icons from "@/constants/icons";
 import { ParkingSpot } from "@/types/parkingSpot";
-import { format } from "date-fns";
+import { format, parseISO } from "date-fns";
 import { es } from "date-fns/locale";
 
 interface Props {
@@ -36,6 +36,17 @@ type ReservationProps = {
     qrCodeUrl?: string;
     carModel: String;
     carPlates: String;
+  };
+  onPress: () => void;
+};
+
+type PenaltyProps = {
+  penalty: {
+    penaltyId: number;
+    reservationId: number;
+    amount: number;
+    reason: string;
+    createdAt: string;
   };
   onPress: () => void;
 };
@@ -191,6 +202,57 @@ export const ParkingCard = ({ reservation, onPress }: ReservationProps) => {
         <Text className="text-base font-rubik-bold text-primary-300">
           {reservation.spotSection}
           {reservation.spotId}
+        </Text>
+      </View>
+    </TouchableOpacity>
+  );
+};
+
+export const PenaltyCard = ({ penalty, onPress }: PenaltyProps) => {
+  // Status handling
+  /*const statusInfo = {
+    color: penalty.status === "PAID" ? "text-green-500" : "text-red-500",
+    text: penalty.status === "PAID" ? "Pagado" : "Pendiente"
+  };
+*/
+
+  // Reason translations
+  const reasonTranslations: Record<string, string> = {
+    LATE_ARRIVAL: "Llegada tardía",
+    CANCELLED: "Reservación cancelada",
+    NO_SHOW: "No presentado",
+    OVERSTAY: "Exceso de tiempo",
+  };
+
+  return (
+    <TouchableOpacity
+      onPress={onPress}
+      className="flex-1 w-full mt-4 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70"
+    >
+      <Image
+        source={images.penalty}
+        className="w-full h-40 rounded-lg"
+        resizeMode="contain"
+      />
+
+      <View className="flex flex-col mt-2 px-5">
+        <Text className="text-base font-rubik-bold text-black-300">
+          Motivo: {reasonTranslations[penalty.reason] || penalty.reason}
+        </Text>
+
+        <View className="flex-row justify-between mt-1">
+          <Text className="text-xs font-rubik text-black-200">
+            Reservación: #{penalty.reservationId}
+          </Text>
+          <Text className="text-xs font-rubik text-black-200">
+            ID: {penalty.penaltyId}
+          </Text>
+        </View>
+      </View>
+
+      <View className="flex flex-row items-center justify-between mt-2 px-5">
+        <Text className="text-base font-rubik-bold text-primary-300">
+          ${penalty.amount.toFixed(2)}
         </Text>
       </View>
     </TouchableOpacity>

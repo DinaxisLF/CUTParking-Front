@@ -59,6 +59,8 @@ export default function ParkingSpotDetailScreen() {
           spotId: reservationDetails.spotId.toString(),
           startTime: reservationDetails.startTime,
           endTime: reservationDetails.endTime,
+          carModel: reservationDetails.carModel,
+          carPlates: reservationDetails.carPlates,
         },
       });
     } catch (error) {

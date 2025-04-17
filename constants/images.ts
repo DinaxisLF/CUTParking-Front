@@ -12,6 +12,7 @@ import parkingFromTop from "@/assets/images/Estacionamiento.jpg";
 import carExample from "@/assets/images/Car.png";
 import reservation from "@/assets/images/ReservationCard.png";
 import parkingSpotImage from "@/assets/images/ParkingSpot.png";
+import penalty from "@/assets/images/PenaltyCard.png";
 
 export default {
   onboarding,
@@ -28,4 +29,5 @@ export default {
   carExample,
   reservation,
   parkingSpotImage,
+  penalty,
 };

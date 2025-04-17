@@ -1,12 +1,15 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Alert } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useLocalSearchParams } from "expo-router";
 import TopBar from "@/components/TopBar";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import CustomButton from "@/components/Button";
-import { DebugInstructions } from "react-native/Libraries/NewAppScreen";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { ReservationsService } from "@/lib/apiService";
+import { router } from "expo-router";
 
 export default function ReservationConfirmationScreen() {
+  const [isCancelling, setIsCancelling] = useState(false);
   const {
     reservationId,
     qrCodeUrl,
@@ -46,6 +49,54 @@ export default function ReservationConfirmationScreen() {
       <Text className="text-white font-rubik-bold">{value}</Text>
     </View>
   );
+
+  const handleCancelReservation = async () => {
+    console.log("Button pressed - start of handleCancelReservation");
+    Alert.alert("Confirmar Cancelación", "¿Deseas cancelar la reservación?", [
+      {
+        text: "No",
+        style: "cancel",
+      },
+      {
+        text: "Cancelar",
+        onPress: async () => {
+          setIsCancelling(true);
+          try {
+            const userId = await AsyncStorage.getItem("userId");
+            if (!userId) throw new Error("User ID not found");
+
+            const result = await ReservationsService.cancelReservation(
+              parseInt(reservationId),
+              parseInt(userId)
+            );
+
+            Alert.alert("Reservación Cancelada", result, [
+              { text: "OK", onPress: () => router.back() },
+            ]);
+          } catch (error) {
+            let errorMessage = "Error al cancelar la reservación";
+
+            // Type checking for different error types
+            if (error instanceof Error) {
+              errorMessage = error.message;
+            } else if (typeof error === "string") {
+              errorMessage = error;
+            } else if (
+              error &&
+              typeof error === "object" &&
+              "message" in error
+            ) {
+              errorMessage = String(error.message);
+            }
+
+            Alert.alert("Error", errorMessage);
+          } finally {
+            setIsCancelling(false);
+          }
+        },
+      },
+    ]);
+  };
 
   return (
     <SafeAreaView className="bg-white h-full">
@@ -103,10 +154,11 @@ export default function ReservationConfirmationScreen() {
         {/* Bottom Button */}
         <View className="p-5 items-center">
           <CustomButton
-            text="Cancelar"
+            text={isCancelling ? "Cancelando..." : "Cancelar"}
             className="w-40 h-10 mt-5"
             variant="danger"
-            onPress={() => {}}
+            onPress={handleCancelReservation}
+            disabled={isCancelling}
           />
         </View>
       </View>
