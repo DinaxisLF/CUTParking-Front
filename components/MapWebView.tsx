@@ -91,12 +91,12 @@ const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
     <View
       style={{
         flex: 1,
+        alignSelf: "center",
         height: 300,
         width: 300,
         borderRadius: 12,
         overflow: "hidden",
         marginTop: 20,
-        marginLeft: 10,
         borderWidth: 1, // Add border width
         borderColor: "#e2e8f0", // Light gray border (adjust color as needed)
       }}

@@ -63,7 +63,7 @@ export async function login() {
 
     // Paso nuevo: Obtener JWT del backend
     const jwtResponse = await fetch(
-      "http://192.168.50.53:8080/api/auth/appwrite",
+      "http://192.168.0.177:8080/api/auth/appwrite",
       {
         method: "POST",
         headers: {
@@ -79,7 +79,7 @@ export async function login() {
     await AsyncStorage.setItem("jwtToken", jwtToken);
     console.log("jwtToken", jwtToken);
 
-    const userID = await fetch("http://192.168.50.53:8080/user/info", {
+    const userID = await fetch("http://192.168.0.177:8080/user/info", {
       method: "GET",
       headers: {
         Authorization: `Bearer ${jwtToken}`,

@@ -7,7 +7,7 @@ import { Reservation } from "@/types/reservation";
 import { Penalty } from "@/types/penaltie";
 
 const api = axios.create({
-  baseURL: "http://192.168.50.53:8080/api",
+  baseURL: "http://192.168.0.177:8080/api",
 });
 
 export const CarService = {

@@ -46,7 +46,7 @@ export default function ParkingSpotsScreen() {
               spot={item}
               onPress={() =>
                 router.replace({
-                  pathname: "/ParkingSpotDetailScreen",
+                  pathname: "/parking-spot-detal-screen",
                   params: { id: item.id.toString() },
                 })
               }

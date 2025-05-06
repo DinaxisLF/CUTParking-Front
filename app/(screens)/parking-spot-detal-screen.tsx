@@ -1,30 +1,20 @@
 import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
-import {
-  View,
-  Text,
-  ActivityIndicator,
-  Modal,
-  Alert,
-  TouchableWithoutFeedback,
-  Keyboard,
-  KeyboardAvoidingView,
-  Platform,
-} from "react-native";
+import { View, Text, ActivityIndicator, Alert } from "react-native";
 import { ParkingSpotService, ReservationsService } from "@/lib/apiService";
 import { ParkingSpot } from "@/types/parkingSpot";
 import { SafeAreaView } from "react-native-safe-area-context";
 import MapView from "@/components/MapWebView";
 import TopBar from "@/components/TopBar";
 import CustomButton from "@/components/Button";
-import { ReservationForm } from "@/components/ReservationForm";
 import { router } from "expo-router";
+import React from "react";
 
-export default function ParkingSpotDetailScreen() {
+const parkingspotdetailscreen = () => {
   const { id } = useLocalSearchParams<{ id: string }>();
   const [spot, setSpot] = useState<ParkingSpot | null>(null);
   const [loading, setLoading] = useState(true);
-  const [showReservationForm, setShowReservationForm] = useState(false); // Moved up
+  const [showReservationForm, setShowReservationForm] = useState(false);
 
   useEffect(() => {
     const fetchSpot = async () => {
@@ -85,7 +75,7 @@ export default function ParkingSpotDetailScreen() {
         </View>
       )}
 
-      <View className="flex flex-col px-5">
+      <View className="flex flex-col px-12">
         <Text className="text-xl font-rubik-bold text-black-300 mt-5">ID</Text>
         <Text className="text-xl font-rubik-medium text-black-300">
           {spot.id}
@@ -104,26 +94,8 @@ export default function ParkingSpotDetailScreen() {
           onPress={() => setShowReservationForm(true)}
         />
       </View>
-      <Modal visible={showReservationForm} transparent animationType="slide">
-        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-          <View className="flex-1 justify-center items-center bg-black/50 p-5">
-            <KeyboardAvoidingView
-              behavior={Platform.OS === "ios" ? "padding" : undefined}
-              style={{ width: "100%" }}
-            >
-              {spot && (
-                <View className="w-full">
-                  <ReservationForm
-                    spotId={spot.id}
-                    onCancel={() => setShowReservationForm(false)}
-                    onSubmit={handleReservationSuccess}
-                  />
-                </View>
-              )}
-            </KeyboardAvoidingView>
-          </View>
-        </TouchableWithoutFeedback>
-      </Modal>
     </SafeAreaView>
   );
-}
+};
+
+export default parkingspotdetailscreen;
