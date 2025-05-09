@@ -87,8 +87,8 @@ const Profile = () => {
         </View>
 
         <View className="flex flex-col mt-10">
-          <SettingsItem icon={icons.calendar} title="My Bookings" />
-          <SettingsItem icon={icons.wallet} title="Payments" />
+          <SettingsItem icon={icons.calendar} title="Reservas" />
+          <SettingsItem icon={icons.wallet} title="Pagos" />
         </View>
 
         <View className="flex flex-col mt-5 border-t pt-5 border-primary-200">
@@ -100,7 +100,7 @@ const Profile = () => {
         <View className="flex flex-col border-t mt-5 pt-5 border-primary-200">
           <SettingsItem
             icon={icons.logout}
-            title="Logout"
+            title="Cerrar Sesión"
             textStyle="text-danger"
             showArrow={false}
             onPress={handleLogout}

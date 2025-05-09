@@ -92,7 +92,7 @@ const Car: React.FC = () => {
     setLoading(true);
     try {
       const data = await CarService.getUserCars();
-      setCars(data);
+      setCars(data || []);
       setError(null);
     } catch (error) {
       setError("Error al cargar automóviles");
@@ -156,8 +156,8 @@ const Car: React.FC = () => {
               showsVerticalScrollIndicator={false}
               ListHeaderComponent={
                 <View className="flex-row justify-between items-center px-5 py-10">
-                  <Text className="text-xl font-rubik-medium text-black-300">
-                    Automóviles ({cars.length})
+                  <Text className="text-xl font-rubik-bold text-black-300">
+                    Automóviles ({cars?.length})
                   </Text>
                   <CustomButton
                     text="Agregar"

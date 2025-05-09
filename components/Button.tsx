@@ -38,7 +38,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
         {icon && <View className="mr-2">{icon}</View>}
         <Text
           className={`
-        text-xs font-rubik-extrabold 
+        text-xs font-rubik-extrabold
         ${
           variant === "primary" || variant === "danger"
             ? "text-white"

@@ -1,6 +1,10 @@
 import { View, Text, SafeAreaView } from "react-native";
 import React from "react";
-import { CardButton } from "@/components/Card";
+import {
+  CardButton,
+  PenaltiesButton,
+  ReservationsButton,
+} from "@/components/Card";
 import TopBar from "@/components/TopBar";
 import { router } from "expo-router";
 
@@ -13,17 +17,35 @@ const handleParkingSpotsPress = async () => {
   }
 };
 
+const handleReservationsPress = () => {
+  router.push("/UserReservationsScreen");
+};
+
+const handlePenaltiesPress = () => {
+  router.push("/UserPenaltiesScreen");
+};
+
 const explore = () => {
   return (
     <SafeAreaView className="bg-white h-full">
       <TopBar />
       <View className="flex-1 flex-col justify-start px-5 py-10">
-        <Text className="text-xl font-rubik-medium text-black-300">
-          Reservar un espacio
+        <Text className="text-xl text-center font-rubik-bold text-black-300">
+          Reservaciones
         </Text>
-        <CardButton
-          onPress={handleParkingSpotsPress} // ✅ Forma correcta
-        />
+        <View className="flex-col justify-center mt-10">
+          <CardButton
+            onPress={handleParkingSpotsPress} // ✅ Forma correcta
+          />
+
+          <ReservationsButton
+            onPress={handleReservationsPress} // ✅ Forma correcta
+          />
+
+          <PenaltiesButton
+            onPress={handlePenaltiesPress} // ✅ Forma correcta
+          />
+        </View>
       </View>
     </SafeAreaView>
   );

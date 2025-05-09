@@ -3,5 +3,6 @@ export type Penalty = {
   reservationId: number;
   amount: number;
   reason: string;
-  createdAt: string;
+  penaltyTime: string;
+  status: string;
 };

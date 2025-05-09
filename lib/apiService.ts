@@ -1,9 +1,8 @@
-// apiService.ts
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Alert } from "react-native";
 import { ParkingSpot } from "@/types/parkingSpot";
-import { Reservation } from "@/types/reservation";
+import { Reservation, ActiveReservation } from "@/types/reservation";
 import { Penalty } from "@/types/penaltie";
 
 const api = axios.create({
@@ -125,6 +124,24 @@ export const CarService = {
 };
 
 export const ParkingSpotService = {
+  getAllSpots: async (): Promise<ParkingSpot[]> => {
+    try {
+      const token = await AsyncStorage.getItem("jwtToken");
+      if (!token) throw new Error("No authentication token found");
+
+      const response = await api.get<ParkingSpot[]>("/parking-spots/all", {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      return response.data;
+    } catch (error) {
+      console.error("Error fetching parking spots:", error);
+      throw error;
+    }
+  },
+
   getAvailableParkingSpots: async (): Promise<ParkingSpot[]> => {
     try {
       const token = await AsyncStorage.getItem("jwtToken");
@@ -240,7 +257,29 @@ export const ReservationsService = {
     }
   },
 
-  // In your apiService.ts
+  getActiveReservation: async (): Promise<ActiveReservation> => {
+    try {
+      const jwtToken = await AsyncStorage.getItem("jwtToken");
+      if (!jwtToken) throw new Error("Authentication required");
+
+      const userId = await AsyncStorage.getItem("userId");
+
+      const response = await api.get<ActiveReservation>(
+        `/reservations/user/${userId}/active-reservation`,
+        {
+          headers: {
+            Authorization: `Bearer ${jwtToken}`,
+          },
+        }
+      );
+
+      return response.data;
+    } catch (error) {
+      console.error("Error fetching reservation details:", error);
+      throw error;
+    }
+  },
+
   getUserReservations: async (): Promise<Reservation[]> => {
     try {
       const [token, userId] = await Promise.all([
@@ -251,12 +290,15 @@ export const ReservationsService = {
       if (!token) throw new Error("No authentication token found");
       if (!userId) throw new Error("No user ID found");
 
-      const response = await api.get(`/reservations/user/${userId}/recent`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await api.get(
+        `/reservations/user/${userId}/reservations`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (!response.data) {
         throw new Error("No data received from server");
@@ -294,7 +336,29 @@ export const PenaltiesService = {
 
       return response.data as Penalty[];
     } catch (error) {
-      console.error("Error fetching user reservations:", error);
+      console.error("Error fetching user penalties:", error);
+      throw error;
+    }
+  },
+
+  getPenaltyInfo: async (penaltyid: number) => {
+    try {
+      const jwtToken = await AsyncStorage.getItem("jwtToken");
+      if (!jwtToken) throw new Error("Authentication required");
+
+      // Ensure penaltyid is a number in the URL
+      const response = await api.get(
+        `/penalties/penalty/${Number(penaltyid)}`,
+        {
+          headers: {
+            Authorization: `Bearer ${jwtToken}`,
+          },
+        }
+      );
+
+      return response.data;
+    } catch (error) {
+      console.error("Error fetching penalty details:", error);
       throw error;
     }
   },

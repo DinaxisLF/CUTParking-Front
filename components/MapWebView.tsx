@@ -6,9 +6,30 @@ import { WebView } from "react-native-webview";
 type MapViewProps = {
   latitude: number;
   longitude: number;
+  status?: "AVAILABLE" | "RESERVED" | "OCCUPIED"; // Add status prop
 };
 
-const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
+const MapView: React.FC<MapViewProps> = ({
+  latitude,
+  longitude,
+  status = "AVAILABLE",
+}) => {
+  // Determine marker color based on status
+  const getMarkerColor = () => {
+    switch (status) {
+      case "AVAILABLE":
+        return "green";
+      case "RESERVED":
+        return "orange";
+      case "OCCUPIED":
+        return "red";
+      default:
+        return "red";
+    }
+  };
+
+  const markerColor = getMarkerColor();
+
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="en">
@@ -23,7 +44,6 @@ const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
           width: 100%;
           height: 100%;
         }
-          /* Hide OpenLayers attribution button */
         .ol-attribution, .ol-zoom {
           display: none !important;
         }
@@ -56,8 +76,8 @@ const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
             }),
             style: new ol.style.Style({
               image: new ol.style.Circle({
-                radius: 6,
-                fill: new ol.style.Fill({ color: 'red' }),
+                radius: 5,
+                fill: new ol.style.Fill({ color: '${markerColor}' }),
                 stroke: new ol.style.Stroke({ color: 'white', width: 2 }),
               }),
             }),
@@ -72,15 +92,14 @@ const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
             view: new ol.View({
               center: ol.proj.fromLonLat([longitude, latitude]),
               zoom: 16,
-              extent: allowedExtent,          // Restrict to this area
-              multiWorld: false,             // Prevent wrapping around the world
-              constrainOnlyCenter: false      // Fully constrain the view
+              extent: allowedExtent,
+              multiWorld: false,
+              constrainOnlyCenter: false
             }),
           });
 
           map.getView().setMinZoom(16);
           map.getView().setMaxZoom(18);
-
         });
       </script>
     </body>
@@ -97,11 +116,15 @@ const MapView: React.FC<MapViewProps> = ({ latitude, longitude }) => {
         borderRadius: 12,
         overflow: "hidden",
         marginTop: 20,
-        borderWidth: 1, // Add border width
-        borderColor: "#e2e8f0", // Light gray border (adjust color as needed)
+        borderWidth: 1,
+        borderColor: "#e2e8f0",
       }}
     >
-      <WebView originWhitelist={["*"]} source={{ html: htmlContent }} />
+      <WebView
+        originWhitelist={["*"]}
+        source={{ html: htmlContent }}
+        javaScriptEnabled={true}
+      />
     </View>
   );
 };

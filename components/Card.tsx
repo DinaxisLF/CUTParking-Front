@@ -34,8 +34,9 @@ type ReservationProps = {
     startTime: string;
     endTime: string;
     qrCodeUrl?: string;
-    carModel: String;
-    carPlates: String;
+    carModel: string;
+    carPlates: string;
+    status?: "ACTIVE" | "CANCELLED" | "COMPLETED";
   };
   onPress: () => void;
 };
@@ -46,7 +47,8 @@ type PenaltyProps = {
     reservationId: number;
     amount: number;
     reason: string;
-    createdAt: string;
+    penaltyTime: string;
+    status: string;
   };
   onPress: () => void;
 };
@@ -59,15 +61,61 @@ export const CardButton = ({ onPress }: Props) => {
     >
       <Image
         source={images.parkingFromTop}
-        className="size-full rounded-2xl"
+        className="size-36 rounded-2xl"
       ></Image>
       <Image
         source={images.cardGradient}
         className="size-full rounded-2xl absolute bottom-0"
       ></Image>
-      <View className="flex flex-col items-center bg-white/90 px-3 py-1.5 rounded-full absolute top-20">
+      <View className="flex flex-col items-center bg-white/90 px-3 py-1.5 rounded-full absolute top-16">
         <Text className="text-xs font-rubik-bold text-primary-300 ml-1">
           Reservar
+        </Text>
+      </View>
+    </TouchableOpacity>
+  );
+};
+
+export const ReservationsButton = ({ onPress }: Props) => {
+  return (
+    <TouchableOpacity
+      className="flex flex-col mt-4 items-center w-100 h-40 relative"
+      onPress={onPress}
+    >
+      <Image
+        source={images.reservation}
+        className="size-40 rounded-2xl mt-1"
+      ></Image>
+      <Image
+        source={images.cardGradient}
+        className="size-full rounded-2xl absolute bottom-0"
+      ></Image>
+      <View className="flex flex-col items-center bg-white/90 px-3 py-1.5 rounded-full absolute top-16">
+        <Text className="text-xs font-rubik-bold text-primary-300 ml-1">
+          Reservaciones
+        </Text>
+      </View>
+    </TouchableOpacity>
+  );
+};
+
+export const PenaltiesButton = ({ onPress }: Props) => {
+  return (
+    <TouchableOpacity
+      className="flex flex-col mt-4 items-center w-100 h-40 relative"
+      onPress={onPress}
+    >
+      <Image
+        source={images.penalty}
+        className="size-32 rounded-2xl mr-10 mt-4"
+      ></Image>
+      <Image
+        source={images.cardGradient}
+        className="size-full rounded-2xl absolute bottom-0"
+      ></Image>
+      <View className="flex flex-col items-center bg-white/90 px-3 py-1.5 rounded-full absolute top-16">
+        <Text className="text-xs font-rubik-bold text-primary-300 ml-1">
+          Penalizaciones
         </Text>
       </View>
     </TouchableOpacity>
@@ -172,10 +220,58 @@ export const ParkingCard = ({ reservation, onPress }: ReservationProps) => {
     match.toUpperCase()
   );
 
+  // Determine card style based on status
+  const getCardStyle = () => {
+    if (!reservation.status) return "bg-white";
+
+    switch (reservation.status.toUpperCase()) {
+      case "ACTIVE":
+        return "bg-green-100 border-l-4 border-green-500";
+      case "CANCELLED":
+        return "bg-red-100 border-l-4 border-red-500";
+      case "COMPLETED":
+        return "bg-blue-100 border-l-4 border-blue-500";
+      default:
+        return "bg-white";
+    }
+  };
+
+  // Determine text color based on status
+  const getStatusTextStyle = () => {
+    if (!reservation.status) return "text-gray-600";
+
+    switch (reservation.status.toUpperCase()) {
+      case "ACTIVE":
+        return "text-green-600";
+      case "CANCELLED":
+        return "text-red-600";
+      case "COMPLETED":
+        return "text-blue-600";
+      default:
+        return "text-gray-600";
+    }
+  };
+
+  // Translate status to Spanish
+  const translateStatus = (status?: string) => {
+    if (!status) return "";
+
+    switch (status.toUpperCase()) {
+      case "ACTIVE":
+        return "Activa";
+      case "CANCELLED":
+        return "Cancelada";
+      case "COMPLETED":
+        return "Completada";
+      default:
+        return status;
+    }
+  };
+
   return (
     <TouchableOpacity
       onPress={onPress}
-      className="flex-1 w-full mt-4 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70"
+      className={`flex-1 w-full mt-4 py-4 rounded-lg shadow-lg shadow-black-100/70 ${getCardStyle()}`}
     >
       {reservation.qrCodeUrl && (
         <Image
@@ -186,9 +282,16 @@ export const ParkingCard = ({ reservation, onPress }: ReservationProps) => {
       )}
 
       <View className="flex flex-col mt-2 px-5">
-        <Text className="text-base font-rubik-bold text-black-300">
-          Fecha: {capitalizedDate}
-        </Text>
+        <View className="flex-row justify-between items-center">
+          <Text className="text-base font-rubik-bold text-black-300">
+            Fecha: {capitalizedDate}
+          </Text>
+          {reservation.status && (
+            <Text className={`text-xs font-rubik-bold ${getStatusTextStyle()}`}>
+              {translateStatus(reservation.status)}
+            </Text>
+          )}
+        </View>
 
         <Text className="text-xs font-rubik text-black-200">
           {reservation.carModel}
@@ -210,13 +313,39 @@ export const ParkingCard = ({ reservation, onPress }: ReservationProps) => {
 
 export const PenaltyCard = ({ penalty, onPress }: PenaltyProps) => {
   // Status handling
-  /*const statusInfo = {
-    color: penalty.status === "PAID" ? "text-green-500" : "text-red-500",
-    text: penalty.status === "PAID" ? "Pagado" : "Pendiente"
+  const getCardStyle = () => {
+    switch (penalty.status.toUpperCase()) {
+      case "PAID":
+        return "bg-green-100 border-l-4 border-green-500";
+      case "PENDING":
+        return "bg-orange-100 border-l-4 border-orange-500";
+      default:
+        return "bg-white";
+    }
   };
-*/
 
-  // Reason translations
+  const getStatusTextStyle = () => {
+    switch (penalty.status.toUpperCase()) {
+      case "PAID":
+        return "text-green-600";
+      case "PENDING":
+        return "text-orange-600";
+      default:
+        return "text-gray-600";
+    }
+  };
+
+  const translateStatus = (status: string) => {
+    switch (status.toUpperCase()) {
+      case "PAID":
+        return "Pagado";
+      case "PENDING":
+        return "Pendiente";
+      default:
+        return status;
+    }
+  };
+
   const reasonTranslations: Record<string, string> = {
     LATE_ARRIVAL: "Llegada tardía",
     CANCELLED: "Reservación cancelada",
@@ -227,7 +356,7 @@ export const PenaltyCard = ({ penalty, onPress }: PenaltyProps) => {
   return (
     <TouchableOpacity
       onPress={onPress}
-      className="flex-1 w-full mt-4 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70"
+      className={`flex-1 w-full mt-4 py-4 rounded-lg shadow-lg shadow-black-100/70 ${getCardStyle()}`}
     >
       <Image
         source={images.penalty}
@@ -236,9 +365,16 @@ export const PenaltyCard = ({ penalty, onPress }: PenaltyProps) => {
       />
 
       <View className="flex flex-col mt-2 px-5">
-        <Text className="text-base font-rubik-bold text-black-300">
-          Motivo: {reasonTranslations[penalty.reason] || penalty.reason}
-        </Text>
+        <View className="flex-row justify-between items-center">
+          <Text className="text-base font-rubik-bold text-black-300">
+            Motivo: {reasonTranslations[penalty.reason] || penalty.reason}
+          </Text>
+          {penalty.status && (
+            <Text className={`text-xs font-rubik-bold ${getStatusTextStyle()}`}>
+              {translateStatus(penalty.status)}
+            </Text>
+          )}
+        </View>
 
         <View className="flex-row justify-between mt-1">
           <Text className="text-xs font-rubik text-black-200">
